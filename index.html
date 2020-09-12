@@ -226,38 +226,68 @@
     <!-- Features Section -->
     <div class="row">
       <div class="col-lg-6">
-        <h2>Coleman & Associates Land Surveying</h2>
-        <p>Over 50 years if experience:</p>
-        <ul>
-          <li>
-            <strong>Contact Info</strong>
-          </li>
-          <li>Phone</li>
-          <li>Email</li>
-          <li>Address</li>
-        </ul>
-        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Corporis, omnis doloremque non cum id reprehenderit, quisquam totam aspernatur tempora minima unde aliquid ea culpa sunt. Reiciendis quia dolorum ducimus unde.</p>
-      </div>
-      <div class="col-lg-6">
-        <img class="img-fluid rounded" src="imgs/logo_small.png" alt="">
-      </div>
+        <h3>Contact Details</h3>
+        <p>
+          725 S. Locust St.
+          <br>Denton, Tx 76201
+          <br>
+        </p>
+        <p>
+          <abbr title="Phone">P</abbr>: (940) 565-8215
+        </p>
+        <p>
+          <abbr title="Email">E</abbr>:
+          <a href="mailto:information@colemansurveying.com">information@colemansurveying.com
+          </a>
+        </p>
+        <p>
+          <abbr title="Hours">H</abbr>: Monday - Friday: 9:00 AM to 5:00 PM
+        </p>
+        <br>
+        <br>
+         <h3>Send us a Message</h3>
+        <form name="sentMessage" id="contactForm" novalidate>
+          <div class="control-group form-group">
+            <div class="controls">
+              <label>Full Name:</label>
+              <input type="text" class="form-control" id="name" required data-validation-required-message="Please enter your name.">
+              <p class="help-block"></p>
+            </div>
+          </div>
+          <div class="control-group form-group">
+            <div class="controls">
+              <label>Phone Number:</label>
+              <input type="tel" class="form-control" id="phone" required data-validation-required-message="Please enter your phone number.">
+            </div>
+          </div>
+          <div class="control-group form-group">
+            <div class="controls">
+              <label>Email Address:</label>
+              <input type="email" class="form-control" id="email" required data-validation-required-message="Please enter your email address.">
+            </div>
+          </div>
+          <div class="control-group form-group">
+            <div class="controls">
+              <label>Message:</label>
+              <textarea rows="10" cols="100" class="form-control" id="message" required data-validation-required-message="Please enter your message" maxlength="999" style="resize:none"></textarea>
+            </div>
+          </div>
+          <div id="success"></div>
+          <!-- For success/fail messages -->
+          <button type="submit" class="btn btn-primary" id="sendMessageButton">Send Message</button>
+        </form>
+        </div>
+        <div class="col-lg-6">
+          <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d1669.127267763067!2d-97.13326123605256!3d33.20742264464811!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xeca7cf6f8f3057ca!2sColeman%20%26%20Associates!5e0!3m2!1sen!2sus!4v1599929736525!5m2!1sen!2sus" width="600" height="450" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+          <br>
+          <br>
+          <img class="img-fluid rounded" src="imgs/logo_small.png" alt="">
+        
+        </div>
     </div>
     <!-- /.row -->
 
     <hr>
-
-    <!-- Call to Action Section -->
-    <div class="row mb-4">
-      <div class="col-md-8">
-        <p>Let us know how we can assist you today.</p>
-      </div>
-      <div class="col-md-4">
-        <a class="btn btn-lg btn-secondary btn-block" href="#">Request Info</a>
-      </div>
-    </div>
-
-  </div>
-  <!-- /.container -->
 
   <!-- Footer -->
   <footer class="py-5 bg-dark">
